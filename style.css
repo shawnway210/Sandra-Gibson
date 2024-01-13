@@ -1,16 +1,15 @@
 
 body {   
     font-size: x-large;
-    font-family: fantasy;
+    font-family:'Times New Roman', Times, serif;
 }
 img {
     width: 500px; 
     height:500px;
     display: grid;
-     
 }
-.p {
-    justify-content: center;
+p {
+    justify-content:space-evenly;
     display: flex;
 }
 a {
@@ -36,4 +35,9 @@ a {
     align-self: baseline;
     flex-direction:row;
     justify-content: space-between;
+}
+.a1 {
+    font-size: x-large;
+    justify-content: center;
+    display: flex;
 }
