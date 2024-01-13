@@ -1,0 +1,38 @@
+
+body {   
+    font-size: x-large;
+    font-family: fantasy;
+    justify-content: center;
+    display: grid;
+}
+.img {
+    justify-content: center;
+}
+.p {
+    justify-content: center;
+    display: flex;
+}
+a {
+    justify-content: center;
+    display: flex;
+}
+
+
+.title {
+    justify-content: center;
+    display: flex;
+}
+.cat {
+    justify-content: center;
+    display: flex;
+}
+.center-image {
+    display: block;
+    margin: auto;
+}
+.name {
+    display: flex;
+    align-self: baseline;
+    flex-direction:row;
+    justify-content: space-between;
+}
