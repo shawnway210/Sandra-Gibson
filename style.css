@@ -2,11 +2,12 @@
 body {   
     font-size: x-large;
     font-family: fantasy;
-    justify-content: center;
-    display: grid;
 }
-.img {
-    justify-content: center;
+img {
+    width: 500px; 
+    height:500px;
+    display: grid;
+     
 }
 .p {
     justify-content: center;
