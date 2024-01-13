@@ -1,12 +1,7 @@
 
 body {   
     font-size: x-large;
-    font-family:'Times New Roman', Times, serif;
-}
-img {
-    width: 500px; 
-    height:500px;
-    display: grid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 p {
     justify-content:space-evenly;
@@ -15,8 +10,15 @@ p {
 a {
     justify-content: center;
     display: flex;
+    color: #000;
 }
+.image {
+    display: block;
+    margin: auto;
+    width: 500px; 
+    height:500px;
 
+}
 
 .title {
     justify-content: center;
@@ -29,6 +31,8 @@ a {
 .center-image {
     display: block;
     margin: auto;
+    width: 500px; 
+    height:400px;
 }
 .name {
     display: flex;
@@ -37,7 +41,12 @@ a {
     justify-content: space-between;
 }
 .a1 {
-    font-size: x-large;
+    font-size: 40px;;
+    justify-content: center;
+    display: flex;
+    color: #000;
+}
+.location {
     justify-content: center;
     display: flex;
 }
